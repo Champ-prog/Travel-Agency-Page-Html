@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Table</title>
+</head>
+<body>
+    <table>
+        <caption>Our Pets</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Nora</td>
+                <td>5</td>
+                <td>Dog</td>
+            </tr>
+            <tr>
+                <th>Gino</th>
+                <td>2</td>
+                <td>Cat</td>
+            </tr>
+            </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Animal</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="row">Dogs</th>
+                <th scope="row">Nora</th>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th scope="row">Gino</th>
+                <td>2</td>
+            </tr>
+           <tr>
+            <th rowspan="2" scope="row">Cats</th>
+            <th>lulu</th>
+            <td>10</td>
+           </tr>
+           <tr>
+            <th>Elizabeth</th>
+            <td>6</td>
+           </tr>
+    </table>
+    <br>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+    </form>
+</body>
+</html>
